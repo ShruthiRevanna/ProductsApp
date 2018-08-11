@@ -24,11 +24,12 @@ exports.product_details = function (req, res) {
             if (err) return next(err);
           //  res.send(product);
         })
-    if (req.body.result.action == "faq-delivery"){
+    //if (req.body.result.action == "faq-delivery"){
 
             return res.json({
             speech: 'Here is the status',
-            displayText:'Feeling happy'
+            displayText:'Feeling happy',
+            source: 'My firs webhoook'
             });
     }
 
