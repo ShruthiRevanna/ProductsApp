@@ -31,7 +31,7 @@ exports.product_details = function (req, res) {
             displayText:'Feeling happy',
             source: 'My firs webhoook'
             });
-    }
+   // }
 
 };
 
